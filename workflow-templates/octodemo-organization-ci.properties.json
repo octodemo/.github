@@ -3,9 +3,9 @@
     "description": "Octodemo Organization CI workflow template.",
     "iconName": "example-icon",
     "categories": [
-        "Maven"
+        "Java"
     ],
     "filePatterns": [
-        "^pom.xml"
+        "pom.xml"
     ]
 }
