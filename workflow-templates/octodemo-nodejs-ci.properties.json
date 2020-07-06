@@ -3,6 +3,10 @@
     "description": "Octodemo Organization CI workflow template.",
     "iconName": "icon",
     "categories": [
-        "Node.js"
+        "Node.js",
+        "JavaScript"
+    ],
+    "filePatterns": [
+        "package.json"
     ]
 }
