@@ -1,0 +1,8 @@
+{
+    "name": "Octodemo Organization Node.js Project",
+    "description": "Octodemo Organization CI workflow template.",
+    "iconName": "icons/icon.svg",
+    "categories": [
+        "Node.js"
+    ]
+}
