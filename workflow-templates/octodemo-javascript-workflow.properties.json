@@ -1,7 +1,7 @@
 {
     "name": "Octodemo Organization JavaScript Workflow",
     "description": "Octodemo Organization CI workflow template for JavaScript.",
-    "iconName": ".github/icon",
+    "iconName": "icon",
     "categories": [
         "Node.js",
         "JavaScript"
