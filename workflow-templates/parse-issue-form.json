@@ -6,6 +6,5 @@
         "Automation"
     ],
     "filePatterns": [
-        ".github/ISSUE_TEMPLATE"
     ]
 }
