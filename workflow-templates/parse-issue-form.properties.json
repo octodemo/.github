@@ -6,7 +6,7 @@
         "Automation"
     ],
     "filePatterns": [
-        ".github/ISSUE_TEMPLATE/*.yaml",
-        ".github/ISSUE_TEMPLATE/*.yml"
+        ".github\/ISSUE_TEMPLATE\/*.yaml",
+        ".github\/ISSUE_TEMPLATE\/*.yml"
     ]
 }
