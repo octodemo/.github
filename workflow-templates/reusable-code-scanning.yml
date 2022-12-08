@@ -8,11 +8,11 @@ name: Centralized Code Scanning
 
 on:
   push:
-    branches: $GH_CS_DEFAULT_BRANCH_EXPR
+    branches: [ $default-branch, $protected-branches ]
   pull_request:
-    branches: $GH_CS_DEFAULT_BRANCH_EXPR
+    branches: [ $default-branch ]
   schedule:
-    - cron: $GH_CS_SCHEDULE_CRON_EXPR
+    - cron: $cron-weekly
 
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
     secrets: inherit
     with:
       # This section is used to tell CodeQL which languages you need to scan in the repo
-      languages: " $GH_CS_MATRIX_LANGUAGE_EXPR "
+      languages: " [ $detected-codeql-languages ] "
       # Autobuild failed?  uncomment the following line and add your build command
       # build-comand: "./build.sh"
       # Need to disable one of the tools from being run?  Uncomment the appropriate line below
