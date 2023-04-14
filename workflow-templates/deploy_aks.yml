@@ -15,6 +15,7 @@ env:
   K8S_DEPLOYMENT: kubecon-rockets
   AZ_RESOURCE_GROUP: kubeconResourceGroup
   AZ_CLUSTER_NAME: kubeconAKSCluster
+  AZURE_CREDENTIALS : ${{ secrets.AZURE_CREDENTIALS_ROCKETS }}
     
 jobs:
   build-and-push:
