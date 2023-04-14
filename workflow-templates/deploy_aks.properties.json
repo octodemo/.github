@@ -3,7 +3,6 @@
     "description": "AKS deployment starter workflow",
     "iconName": "example-icon",
     "categories": [
-        "TSX", 
         "JavaScript"
     ],
     "filePatterns": [
