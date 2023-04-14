@@ -1,0 +1,14 @@
+{
+    "name": "Octo Organization Workflow",
+    "description": "AKS deployment starter workflow",
+    "iconName": "example-icon",
+    "categories": [
+        "TSX", 
+        "JavaScript"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
