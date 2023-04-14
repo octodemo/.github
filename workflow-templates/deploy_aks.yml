@@ -1,0 +1,26 @@
+name: Build and Push to ACR and deploy to AKS
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  IMAGE_NAME: kubeconacr.azurecr.io/kubecon-rockets:latest
+  K8S_NAMESPACE: default
+  K8S_DEPLOYMENT: kubecon-rockets
+  AZ_RESOURCE_GROUP: kubeconResourceGroup
+  AZ_CLUSTER_NAME: kubeconAKSCluster
+    
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+    
