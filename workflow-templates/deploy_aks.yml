@@ -42,7 +42,4 @@ jobs:
           context: .
           push: true
           tags: <user/app:latest>
-          
-
-          
-          tags: kubeconacr.azurecr.io/kubecon-rockets:latest
+       
