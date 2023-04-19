@@ -16,6 +16,8 @@ env:
   AZ_RESOURCE_GROUP: kubeconResourceGroup
   AZ_CLUSTER_NAME: kubeconAKSCluster
   AZURE_CREDENTIALS : ${{ secrets.AZURE_CREDENTIALS_ROCKETS }}
+  ACR_USERNAME : ${{ secrets.ACR_USERNAME_KUBE }}
+  ACR_PASSWORD : ${{ secrets.ACR_PASSWORD_KUBE }}
     
 jobs:
   build-and-push:
