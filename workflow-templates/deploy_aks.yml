@@ -29,7 +29,7 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          creds: ${{ secrets.AZURE_CREDENTIALS_MT }}
+          creds: ${{ secrets.AZURE_CREDENTIALS_ROCKETS }}
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
