@@ -1,4 +1,4 @@
 {
     "name": "CodeQL with Smart Scan",
-    "description": "This starter workflow enables CodeQL with the (Smart Scan Bot)[https://github.com/leftrightleft/smart-scan]."
+    "description": "Run CodeQL only when the PR impacts your application source code!"
 }
